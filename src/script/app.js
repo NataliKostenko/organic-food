@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="sec-${classOfSection}-card product-card" data-product-id="${product.id}">
         <p class="badge">${product.category}</p>
         <div class="photo">
-          <img src="${product.imgSrc}">
+          <img src="${product.imgSrc}" alt="${product.title}" />
         </div>
         <p class="title">${product.title}</p>
         <div class="info df align-e justify-b">
