@@ -21,4 +21,4 @@ A modern, responsive website for an organic food store built with HTML, Sass, an
 - **Glide.js** - Touch-enabled slider/carousel
 - **FontAwesome** - Icon library
 
-The website is deployed at <https://organicfood.kostenko.link/>
+The website is deployed at <https://organic.kostenko.link/>
