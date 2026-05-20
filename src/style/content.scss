@@ -94,7 +94,7 @@
       font-size: 36px;
       margin-bottom: 5px;
     }
-    
+
     h3 {
       font-size: 40px;
       line-height: 42px;
@@ -106,11 +106,11 @@
     .sec-2__banner {
       padding: 30px;
       border-radius: 20px;
-  
+
       p {
         font-size: 30px;
       }
-      
+
       h3 {
         font-size: 34px;
         line-height: 36px;
@@ -122,11 +122,11 @@
     .sec-2__banner {
       padding: 20px;
       border-radius: 15px;
-  
+
       p {
         font-size: 24px;
       }
-      
+
       h3 {
         font-size: 30px;
         line-height: 32px;
@@ -138,11 +138,11 @@
     .sec-2__banner {
       padding: 15px;
       border-radius: 15px;
-  
+
       p {
         font-size: 20px;
       }
-      
+
       h3 {
         font-size: 24px;
         line-height: 26px;
@@ -154,11 +154,11 @@
     .sec-2__banner {
       padding: 10px;
       border-radius: 10px;
-  
+
       p {
         font-size: 16px;
       }
-      
+
       h3 {
         font-size: 20px;
         line-height: 22px;
@@ -182,7 +182,7 @@
         font-size: 12px;
         margin-bottom: 3px;
       }
-      
+
       h3 {
         font-size: 16px;
         line-height: 18px;
@@ -192,7 +192,7 @@
 }
 
 .sec-3 {
-  background-color: #F9F8F8;
+  background-color: #f9f8f8;
 
   .sec-3__img {
     width: 50%;
@@ -257,7 +257,7 @@
       width: 40%;
       margin-right: 30px;
     }
-  
+
     .sec-3__text {
       width: 60%;
 
@@ -266,23 +266,23 @@
         line-height: 18px;
         margin-bottom: 35px;
       }
-  
+
       ul {
         margin-bottom: 35px;
 
         li {
           gap: 15px;
           margin-bottom: 20px;
-  
+
           span {
             &.icon {
               width: 80px;
             }
-  
+
             &.text {
               font-size: 16px;
               line-height: 18px;
-  
+
               strong {
                 font-size: 22px;
                 margin-bottom: 7px;
@@ -308,16 +308,16 @@
         li {
           gap: 15px;
           margin-bottom: 15px;
-  
+
           span {
             &.icon {
               width: 60px;
             }
-  
+
             &.text {
               font-size: 14px;
               line-height: 16px;
-  
+
               strong {
                 font-size: 18px;
               }
@@ -336,7 +336,9 @@
     .sec-3__text {
       width: 100%;
 
-      h3, h2, p {
+      h3,
+      h2,
+      p {
         text-align: center;
       }
 
@@ -382,7 +384,8 @@
 }
 
 .sec-4 {
-  h3, h2 {
+  h3,
+  h2 {
     text-align: center;
   }
 
@@ -446,7 +449,7 @@
     .sec-4-cards {
       margin-bottom: 25px;
     }
-    
+
     button {
       padding: 7px;
     }
@@ -454,12 +457,13 @@
 }
 
 .sec-5 {
-  background-image: url(../../assets/images/sec-5-bg.png);
+  background-image: url(../../assets/images/sec-5-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
-  h2, h3 {
+  h2,
+  h3 {
     text-align: center;
   }
 
@@ -488,7 +492,7 @@
       &.rating {
         font-size: 30px;
         font-weight: 700;
-        color: #FFA858;
+        color: #ffa858;
         margin-bottom: 25px;
       }
 
@@ -534,9 +538,8 @@
     width: 210px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    background-color: #F1F1F1;
-    border: solid 2px #7EB693;
-
+    background-color: #f1f1f1;
+    border: solid 2px #7eb693;
 
     p {
       text-align: center;
@@ -763,7 +766,8 @@
       li {
         margin-bottom: 20px;
 
-        strong, span {
+        strong,
+        span {
           display: block;
         }
 
@@ -889,11 +893,11 @@
     border-radius: 30px;
 
     &:first-child {
-      background-image: url(../../assets/images/sec-8-card-bg-1.png);
+      background-image: url(../../assets/images/sec-8-card-bg-1.jpg);
     }
 
     &:last-child {
-      background-image: url(../../assets/images/sec-8-card-bg-2.png);
+      background-image: url(../../assets/images/sec-8-card-bg-2.jpg);
     }
 
     p.date {
@@ -913,12 +917,13 @@
       padding: 45px 50px;
       background-color: $white-color;
       border-radius: 30px;
-      -webkit-box-shadow: 0px 20px 35px 0px rgba(167,167,167,0.25);
-      -moz-box-shadow: 0px 20px 35px 0px rgba(167,167,167,0.25);
-      box-shadow: 0px 20px 35px 0px rgba(167,167,167,0.25);
+      -webkit-box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+      -moz-box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+      box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
 
       p {
-        &.author, &.preview {
+        &.author,
+        &.preview {
           font-size: 18px;
           line-height: 110%;
         }
@@ -928,7 +933,7 @@
           margin-bottom: 15px;
 
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -995,7 +1000,8 @@
         border-radius: 20px;
 
         p {
-          &.author, &.preview {
+          &.author,
+          &.preview {
             font-size: 15px;
           }
 
@@ -1028,14 +1034,15 @@
         font-size: 13px;
         width: 45px;
       }
-      
+
       .content {
         padding: 15px;
         top: 15px;
         border-radius: 15px;
 
         p {
-          &.author, &.preview {
+          &.author,
+          &.preview {
             font-size: 13px;
             margin-bottom: 10px;
           }
@@ -1089,7 +1096,8 @@
         border-radius: 10px;
 
         p {
-          &.author, &.preview {
+          &.author,
+          &.preview {
             font-size: 11px;
           }
         }
@@ -1126,7 +1134,7 @@
     width: 100%;
     aspect-ratio: 1 / 0.2;
     padding: 0 70px;
-    background-image: url(../../assets/images/sec-9-bg.png);
+    background-image: url(../../assets/images/sec-9-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1139,7 +1147,8 @@
     form {
       gap: 10px;
 
-      input, button {
+      input,
+      button {
         font-size: 20px;
         border-radius: 16px;
         padding: 25px;
@@ -1177,7 +1186,8 @@
       }
 
       form {
-        input, button {
+        input,
+        button {
           font-size: 18px;
           padding: 20px;
           border-radius: 12px;
@@ -1193,7 +1203,8 @@
   @include onSmallDesktop {
     .sec-9-content {
       form {
-        input, button {
+        input,
+        button {
           padding: 15px;
         }
 
@@ -1212,7 +1223,8 @@
       form {
         gap: 5px;
 
-        input, button {
+        input,
+        button {
           font-size: 15px;
           padding: 10px;
           border-radius: 8px;
@@ -1247,7 +1259,8 @@
       form {
         width: 100%;
 
-        input, button {
+        input,
+        button {
           font-size: 13px;
           padding: 7px;
           border-radius: 5px;
